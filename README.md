@@ -19,5 +19,8 @@ Based on [python packaging](https://python-packaging.readthedocs.io).
 ## Developer
 
 ```bash
+# install envirnment
 $ python setup.py develop
+# test
+$ python setup.py test
 ```
