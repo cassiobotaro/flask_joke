@@ -1,6 +1,8 @@
 # :joy: Flask Joke
 The Funniest Joke in the Flask World
 
+Based on [python packaging](https://python-packaging.readthedocs.io).
+
 
 ## Usage
 
