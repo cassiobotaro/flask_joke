@@ -14,6 +14,12 @@ def test_joke_content():
     'das Oder die Flipperwaldt gersput.</p>'
 
 
+def test_joke_content_from_json():
+    s = flask_joke.joke_from_json()
+    s == '<p>Wenn ist das Nunstück git und Slotermeyer? Ja! ... <strong>Beiherhund</strong> '
+    'das Oder die Flipperwaldt gersput.</p>'
+
+
 # for historical reasons
 # class TestJoke(TestCase):
 

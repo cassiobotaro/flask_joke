@@ -1,1 +1,1 @@
-from .text import joke
+from .text import joke, joke_from_json
