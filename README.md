@@ -7,8 +7,9 @@ Based on [python packaging](https://python-packaging.readthedocs.io).
 ## Usage
 
 ```python
->>> import funniest
->>> print(funniest.joke())
+>>> import flask_joke
+>>> print(flask_joke.joke())
+>>> print(flask_joke.joke_from_json())
 ```
 
 ## Install
