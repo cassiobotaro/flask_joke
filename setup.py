@@ -27,6 +27,10 @@ setup(name='flask_joke',
       ],
       setup_requires=['pytest-runner'],
       tests_require=['pytest'],
+      scripts=['bin/funniest-joke'],
+      entry_points = {
+          'console_scripts': ['funniest-joke-cli=flask_joke.cli:main'],
+      },
       include_package_data=True,
       packages=['flask_joke'],
       zip_safe=False)
