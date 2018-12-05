@@ -1,2 +1,1 @@
 from .text import joke
-

@@ -7,5 +7,8 @@ setup(name='flask_joke',
       author='Flying Circus',
       author_email='flyingcircus@example.com',
       license='MIT',
+      install_requires=[
+          'markdown',
+      ],
       packages=['flask_joke'],
       zip_safe=False)

@@ -11,8 +11,12 @@ Based on [python packaging](https://python-packaging.readthedocs.io).
 >>> print(funniest.joke())
 ```
 
-## Developing
+## Install
+
+`python setup.py install`
+
+## Developer
 
 ```bash
-$ pip install -e .
+$ python setup.py develop
 ```
