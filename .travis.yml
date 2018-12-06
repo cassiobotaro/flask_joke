@@ -1,0 +1,16 @@
+language: python
+python: 3.6
+cache: pip
+
+matrix:
+  include:
+    - python: 3.6
+    - python: 3.7
+      dist: xenial
+      sudo: true
+  allow_failures:
+      - python: 3.7
+
+
+install: true
+script: python setup.py test
