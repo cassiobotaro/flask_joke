@@ -1,5 +1,3 @@
-from unittest import TestCase
-
 import flask_joke
 
 
@@ -10,13 +8,15 @@ def test_is_string():
 
 def test_joke_content():
     s = flask_joke.joke()
-    s == '<p>Wenn ist das Nunstück git und Slotermeyer? Ja! ... <strong>Beiherhund</strong> '
+    s == '<p>Wenn ist das Nunstück git und Slotermeyer? Ja! ... '
+    '<strong>Beiherhund</strong> '
     'das Oder die Flipperwaldt gersput.</p>'
 
 
 def test_joke_content_from_json():
     s = flask_joke.joke_from_json()
-    s == '<p>Wenn ist das Nunstück git und Slotermeyer? Ja! ... <strong>Beiherhund</strong> '
+    s == '<p>Wenn ist das Nunstück git und Slotermeyer? Ja! ... '
+    '<strong>Beiherhund</strong> '
     'das Oder die Flipperwaldt gersput.</p>'
 
 
@@ -29,5 +29,6 @@ def test_joke_content_from_json():
 
 #     def test_joke_content(self):
 #         s = flask_joke.joke()
-#         self.assertTrue(s, '<p>Wenn ist das Nunstück git und Slotermeyer? Ja! ... <strong>Beiherhund</strong> '
+#         self.assertTrue(s, '<p>Wenn ist das Nunstück git und Slotermeyer? '
+#                 'Ja! ''... <strong>Beiherhund</strong> '
 #                 'das Oder die Flipperwaldt gersput.</p>')
