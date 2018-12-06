@@ -1,4 +1,5 @@
 #!/usr/bin/env python
 
 import flask_joke
+
 print(flask_joke.joke())

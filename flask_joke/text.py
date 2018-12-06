@@ -1,6 +1,7 @@
+import json
+
 from markdown import markdown
 from pkg_resources import resource_filename
-import json
 
 
 def joke():

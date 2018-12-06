@@ -1,6 +1,6 @@
-from flask_joke.cli import main
-from unittest import TestCase
 from unittest.mock import patch
+
+from flask_joke.cli import main
 
 
 @patch('builtins.print')

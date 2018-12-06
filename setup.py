@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from setuptools import setup
 
 
@@ -24,6 +25,7 @@ setup(name='flask_joke',
       license='MIT',
       install_requires=[
           'markdown',
+          'flask',
       ],
       setup_requires=['pytest-runner'],
       tests_require=['pytest'],

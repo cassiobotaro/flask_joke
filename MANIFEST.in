@@ -1,2 +1,4 @@
 include README.md
 include flask_joke/data/joke.json
+graft flask_joke/static
+graft flask_joke/templates
