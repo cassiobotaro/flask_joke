@@ -1,4 +1,5 @@
-# :joy: Flask Joke
+# :joy: Flask Joke [![Build Status](https://travis-ci.org/cassiobotaro/flask_joke.svg?branch=master)](https://travis-ci.org/cassiobotaro/flask_joke)
+
 The Funniest Joke in the Flask World
 
 Based on [python packaging](https://python-packaging.readthedocs.io).
