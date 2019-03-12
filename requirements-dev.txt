@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest-runner
+pytest
+pre-commit
