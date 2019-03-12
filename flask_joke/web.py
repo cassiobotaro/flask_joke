@@ -7,11 +7,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    """Index."""
+    """Index endpoint."""
     return render_template("index.html", joke=joke())
 
 
 @app.route("/from_json")
 def from_json():
-    """From JSON."""
+    """From JSON endpoint."""
     return render_template("index.html", joke=joke_from_json())
